@@ -115,16 +115,26 @@ Markdown,文本修饰语言，用特殊符号修饰正文效果<br>换行
 # 2.Git
 ## 设备认证
 1. 如何让网站的账户与设备绑定，后续完成代码的管理，上传下载（后续对仓库的操作，都要在仓库位置(master)
+
 命令：
+
 git init //创建本地仓库
+
 git config --list //查看git的配置文件，左=右是键值对存储
+
 git config --global user.email "邮箱" 添加邮箱的配置文件
+
 git config --global user.name "用户名" 添加用户名的配置文件
+
 ssh-keygen -t rsa -C "注册邮箱" //创建本地密文（包含协议机器代码，让网站相信这个机器）去对应的目录查找密文文件
+
 rsa.pub文件 复制密文，粘贴 settings \-\>SSH key and GPG \-\>new ssh key \-\>粘贴
+
 ssh -T git@github.com //测试关联是否成功，成功会打招呼
 2. 为目标仓库起别名，定位目标仓库，后续上传
+
 git remote add origin "ssh地址“ //为ssh仓库地址创建别名为origin（可自定义）
+
 git remote remove origin //删除origin别名
 ## 本地设备与云端仓库的交互
 ![逻辑](https://picture.gptkong.com/20240607/2024dded0e3d0442d2947c5b63f95afed3.jpg "交互")
@@ -142,10 +152,15 @@ git remote remove origin //删除origin别名
 
 ## 代码更新的依赖关系被破坏
 **本地内容要比云端新，完成更新替换，但是如果直接修改云端内容，导致本地内容无法再次提交**
+
 `解决`**：先拉取git pull云端内容 与本地内容合并或者操作，而后再次推即可**
+
 git pull --rebase origin master
+
 git rebase --skip "忽略本地内容，保留云端内容"
+
 git debase --abort "忽略云端内容，保留本地内容"
+
 git debase --continue ”合并本地和云端内容“
 ## 分支Branch
 **关于分支的相关命令，创建分支、选择分支、合并分支等**
