@@ -87,7 +87,7 @@ Markdown,文本修饰语言，用特殊符号修饰正文效果<br>换行
    * python tutorial，查询资料，书籍，文档
    * socket sanple，查询对应技术的代码样本
 ## 探索
-   **主页左上角三斜杠->explore</br>
+   **主页左上角三斜杠->explore** </br>
    1. Explore:新闻
    2. Topics:选择感兴趣的类别
    3. Trending:热门的
@@ -108,6 +108,6 @@ Markdown,文本修饰语言，用特殊符号修饰正文效果<br>换行
    * 在仓库中可以包含多个分支，分支才是代码文件的第一存储单位，默认的仓库主分支为master/main 以前所有程序的主函数都叫master但是由于政治正确改为main
    * 不仅可以管理代码存储，便于多人协作开发
 # Git软件
-**分布式版本控制系统，仓库管理软件，使用git原理私人代码或企业代码
+**分布式版本控制系统，仓库管理软件，使用git原理私人代码或企业代码**
 ![Git软件关系](https://picture.gptkong.com/20240607/2009f816eaf7d24a55aebf2934efa86ee9.jpg "Git")
 
