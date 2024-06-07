@@ -77,4 +77,4 @@ Markdown,文本修饰语言，用特殊符号修饰正文效果<br>换行
 ### 超链接技术
 [Github](https://github.com "github")
 ### 插入图片
-![图片1]("C://Users//46837//Desktop//1.jpg" "悬停")
+![图片1](https://picture.gptkong.com/20240607/1947e2b0a813504a7da0286c7259d3fe88.jpg "悬停")
